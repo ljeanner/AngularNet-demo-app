@@ -1,0 +1,6 @@
+@AngularNet_demo_app.Server_HostAddress = http://localhost:5063
+
+GET {{AngularNet_demo_app.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

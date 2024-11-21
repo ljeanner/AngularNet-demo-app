@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AngularNet-demo-app.Server.props" />
+</Project>
