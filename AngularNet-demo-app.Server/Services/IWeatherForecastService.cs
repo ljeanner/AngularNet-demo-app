@@ -3,5 +3,6 @@
     public interface IWeatherForecastService
     {
         IEnumerable<WeatherForecast> getWeatherForecast();
+        WeatherForecast? GetWeatherForecastByDate(DateOnly date); // New method
     }
 }
