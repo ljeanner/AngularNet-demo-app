@@ -50,6 +50,8 @@ describe('WeatherService', () => {
 
       expect(result).toEqual(expectedAvgTemp);
     });
+
+    /
   });
 });
 
