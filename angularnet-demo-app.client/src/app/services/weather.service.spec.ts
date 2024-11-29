@@ -10,8 +10,6 @@ describe('WeatherService', () => {
     });
     service = TestBed.inject(WeatherService);
   });
-
-
 });
 
 
