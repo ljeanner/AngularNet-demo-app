@@ -18,14 +18,4 @@ public class WeatherForecastService : IWeatherForecastService
         })
         .ToArray();
     }
-
-    public WeatherForecast GetWeatherForecastByDate(DateTime date)
-    {
-        return new WeatherForecast
-        {
-            Date = DateOnly.FromDateTime(date),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        };
-    }
 }
