@@ -7,6 +7,8 @@ node_modules/
 # Ignore build output
 dist/
 build/
+.bin/
+.obj/
 
 # Ignore environment variables
 .env
@@ -17,8 +19,11 @@ Thumbs.db
 
 # Ignore IDE-specific files
 .vscode/
+.vs/
 .idea/
 *.suo
 *.user
 *.userossc
 *.sln.docstates
+
+AngularNet-demo-app.Server/obj/
