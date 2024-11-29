@@ -15,7 +15,7 @@ export class WeatherService {
     }
 
     let a = sum / count;
-    let b = ((a - 32) * 5) / 10;
+    let b = ((a - 32) * 5) / 9;
 
     return b;
   }
