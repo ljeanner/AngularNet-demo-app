@@ -9,5 +9,10 @@ export class EmailService {
     const emailRegEx = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     return emailRegEx.test(email);
   }
+
+  // to do : a function that will calculate the sum of two numbers
+  public sum(a: number, b: number): number {
+    return a + b;
+  }
 }
 
