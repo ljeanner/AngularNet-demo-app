@@ -24,5 +24,10 @@ namespace AngularNet_demo_app.Server.Controllers
         }
 
         // To do : Create a function that returns a single weather forecast for a given date
+        [HttpGet("{date}", Name = "GetWeatherForecastByDate")]
+        public WeatherForecast GetWeatherForecastByDate(DateOnly date)
+        {
+            return _weatherForecastService.GetWeatherForecastByDate(date);
+        }
     }
 }

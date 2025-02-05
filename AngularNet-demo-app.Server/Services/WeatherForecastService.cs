@@ -18,4 +18,9 @@ public class WeatherForecastService : IWeatherForecastService
         })
         .ToArray();
     }
+
+    public WeatherForecast? GetWeatherForecastByDate(DateOnly date)
+    {
+        return getWeatherForecast().FirstOrDefault(forecast => forecast.Date == date);
+    }
 }
